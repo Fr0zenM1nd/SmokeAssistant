@@ -27,7 +27,7 @@
   
             <router-link
               to="/Nuke"
-              class="min-h-10 flex items-center justify-left gap-2 rounded-lg transition-colors duration-300 ease-out hover:bg-neutral-800"
+              class="min-h-10 flex items-center justify-left gap-2 rounded-lg transition-colors duration-300 ease-out bg-neutral-600"
             >
               <div class="pl-2">
                 <img src="@/assets/icons/Nuke.webp" alt="icon" class="w-6 h-6 inline-block mr-2" />
@@ -37,7 +37,7 @@
             
             <router-link
               to="/Inferno"
-              class="min-h-10 flex items-center justify-left gap-2 rounded-lg transition-colors duration-300 ease-out bg-neutral-600"
+              class="min-h-10 flex items-center justify-left gap-2 rounded-lg transition-colors duration-300 ease-out hover:bg-neutral-800"
             >
               <div class="pl-2">
                 <img src="@/assets/icons/Inferno.webp" alt="icon" class="w-6 h-6 inline-block mr-2" />
@@ -49,7 +49,7 @@
   
         <div class="flex justify-center items-center px-4 lg:px-20">
           <img 
-            src="@/assets/Maps/Inferno.webp" 
+            src="@/assets/Maps/Nuke.webp" 
             alt="Right Side Image" 
             :class="['rounded-lg shadow-lg w-auto max-w-full sm:max-w-[75%] md:max-w-[70%] lg:max-w-[65%]']" 
           />
