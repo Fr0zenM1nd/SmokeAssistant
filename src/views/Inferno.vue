@@ -69,15 +69,6 @@
             </button>
           </div>
 
-          <div class="absolute top-[11%] left-[47.4%] w-[5%] h-[5%]">
-            <button @click="changeSmoke(6)">
-              <div class="relative w-full h-full rounded-full flex justify-center items-center transition-opacity opacity-50 hover:opacity-100">
-                <img src="@/assets/icons/Smoke.svg" class="w-full h-full object-contain rounded-full" />
-                <span class="absolute text-black font-bold text-[1vw]">6</span>
-              </div>
-            </button>
-          </div>
-
           <div class="absolute top-[73%] left-[68%] w-[5%] h-[5%]">
             <button @click="changeSmoke(3)">
               <div class="relative w-full h-full rounded-full flex justify-center items-center transition-opacity opacity-50 hover:opacity-100">
@@ -95,9 +86,32 @@
               </div>
             </button>
           </div>
+
+
+          <div class="absolute top-[78%] left-[83%] w-[5%] h-[5%]">
+            <button @click="changeSmoke(5)">
+              <div class="relative w-full h-full rounded-full flex justify-center items-center transition-opacity opacity-50 hover:opacity-100">
+                <img src="@/assets/icons/Smoke.svg" class="w-full h-full object-contain rounded-full" />
+                <span class="absolute text-black font-bold text-[1vw]">5</span>
+              </div>
+            </button>
+          </div>
+
+
+
+          <div class="absolute top-[11%] left-[47.4%] w-[5%] h-[5%]">
+            <button @click="changeSmoke(6)">
+              <div class="relative w-full h-full rounded-full flex justify-center items-center transition-opacity opacity-50 hover:opacity-100">
+                <img src="@/assets/icons/Smoke.svg" class="w-full h-full object-contain rounded-full" />
+                <span class="absolute text-black font-bold text-[1vw]">6</span>
+              </div>
+            </button>
+          </div>
+
         </div>
 
         
+
 
         <div class="relative max-w-[90%]">
           <img 
