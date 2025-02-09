@@ -76,8 +76,13 @@
   </script>
   
   <style scoped>
-a {
-  color: inherit;
-  text-decoration: none;
-}
+  a {
+      color: inherit;
+      text-decoration: inherit;
+      font: inherit;
+  }
+
+  button {
+    all: unset; /* Resets padding, margins, borders */
+  }
 </style>

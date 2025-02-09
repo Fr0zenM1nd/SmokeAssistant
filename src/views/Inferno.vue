@@ -56,18 +56,22 @@
         />
         
 
-        <div class="absolute top-[20%] left-[53%] w-[5%] h-[5%]">
-          <div class="relative w-full h-full rounded-full flex justify-center items-center transition-opacity opacity-50 hover:opacity-100">
-            <img src="@/assets/icons/Smoke.svg" class="w-full h-full object-contain rounded-full" />
-            <span class="absolute text-black font-bold text-[1vw]">1</span>
-          </div>
+        <div class="absolute top-[20%] left-[54%] w-[3%] h-[3%]">
+          <button>
+            <div class="relative w-full h-full rounded-full flex justify-center items-center transition-opacity opacity-50 hover:opacity-100">
+              <img src="@/assets/icons/Smoke.svg" class="w-full h-full object-contain rounded-full" />
+              <span class="absolute text-black font-bold text-[1vw]">1</span>
+            </div>
+          </button>
         </div>
         
-        <div class="absolute top-[65%] left-[59.70%] w-[5%] h-[5%]">
-          <div class="relative w-full h-full rounded-full flex justify-center items-center transition-opacity opacity-50 hover:opacity-100">
-            <img src="@/assets/icons/Smoke.svg" class="w-full h-full object-contain rounded-full" />
-            <span class="absolute text-black font-bold text-[1vw]">2</span>
-          </div>
+        <div class="absolute top-[65%] left-[60.5%] w-[3%] h-[3%]">
+          <button>
+            <div class="relative w-full h-full rounded-full flex justify-center items-center transition-opacity opacity-50 hover:opacity-100">
+              <img src="@/assets/icons/Smoke.svg" class="w-full h-full object-contain rounded-full" />
+              <span class="absolute text-black font-bold text-[1vw]">2</span>
+            </div>
+          </button>
         </div>
         
       </div>
@@ -91,8 +95,13 @@ export default {
 </script>
 
 <style scoped>
-a {
-  color: inherit;
-  text-decoration: inherit;
-}
+  a {
+      color: inherit;
+      text-decoration: inherit;
+      font: inherit;
+  }
+
+  button {
+    all: unset; /* Resets padding, margins, borders */
+  }
 </style>
