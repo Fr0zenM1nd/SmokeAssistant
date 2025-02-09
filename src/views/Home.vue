@@ -1,6 +1,6 @@
 <template>
   <div class="absolute inset-0 bg-gradient-to-br from-neutral-900 from-5% to-neutral-950">
-    <div class="h-full flex flex-col lg:flex-row items-center lg:justify-between px-8">
+    <div class="h-full flex flex-col lg:flex-row items-center lg:justify-between lg:px-8">
 
       <div class="flex items-center justify-start h-full">
         <ul class="min-w-40 font-mono font-bold rounded-xl bg-neutral-900 text-neutral-200 space-y-4 p-4">

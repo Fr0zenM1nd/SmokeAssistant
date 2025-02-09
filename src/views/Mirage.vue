@@ -53,7 +53,6 @@
             alt="Right Side Image" 
             :class="['rounded-lg shadow-lg w-auto max-w-full sm:max-w-[75%] md:max-w-[70%] lg:max-w-[65%]']" 
           />
-
         </div>
 
   
