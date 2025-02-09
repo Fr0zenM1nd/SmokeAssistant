@@ -112,7 +112,7 @@
 
         <div class="relative max-w-[90%]">
           <img 
-            :src="`/src/assets/Maps/Smokes/Inferno/${ActiveSmoke}/${AutoSmoke}.PNG`" 
+            :src="`/src/assets/Maps/Smokes/Inferno/${ActiveSmoke}.PNG`" 
             alt="Smoke View" 
             class="rounded-xl shadow-lg border-4 border-yellow-900" 
           />
