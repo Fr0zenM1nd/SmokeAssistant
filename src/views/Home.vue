@@ -5,37 +5,45 @@
       <div class="flex items-center justify-start h-full">
         <ul class="min-w-40 font-mono font-bold rounded-xl bg-neutral-900 text-neutral-200 space-y-4 p-4">
 
-          <li class="min-h-10 flex items-center justify-left gap-2 rounded-lg transition-colors duration-300 ease-out hover:bg-neutral-800">
+          <router-link
+            to="/Mirage"
+            class="min-h-10 flex items-center justify-left gap-2 rounded-lg transition-colors duration-300 ease-out hover:bg-neutral-800"
+          >
             <div class="pl-2">
               <img src="@/assets/icons/Mirage.webp" alt="icon" class="w-6 h-6 inline-block mr-2" />
             </div>
-             Mirage 
-          </li>
+            Mirage
+          </router-link>
 
-          <li class="min-h-10 flex items-center justify-left gap-2 rounded-lg transition-colors duration-300 ease-out hover:bg-neutral-800">
+          <router-link
+            to="/Dust2"
+            class="min-h-10 flex items-center justify-left gap-2 rounded-lg transition-colors duration-300 ease-out hover:bg-neutral-800"
+          >
             <div class="pl-2">
               <img src="@/assets/icons/Dust2.webp" alt="icon" class="w-6 h-6 inline-block mr-2" />
             </div>
-             Dust2 
-          </li>
+            Dust 2
+          </router-link>
 
-          <li class="min-h-10 flex items-center justify-left gap-2 rounded-lg transition-colors duration-300 ease-out hover:bg-neutral-800">
+          <router-link
+            to="/Nuke"
+            class="min-h-10 flex items-center justify-left gap-2 rounded-lg transition-colors duration-300 ease-out hover:bg-neutral-800"
+          >
             <div class="pl-2">
               <img src="@/assets/icons/Nuke.webp" alt="icon" class="w-6 h-6 inline-block mr-2" />
-            </div> 
-            Nuke 
-          </li>
+            </div>
+            Nuke
+          </router-link>
 
           <router-link
             to="/Inferno"
-            class="min-h-10 flex items-center justify-left gap-2 rounded-lg transition-colors duration-300 ease-out hover:bg-neutral-800"
+            class="min-h-10 flex items-center justify-left gap-2 rounded-lg transition-colors duration-300 ease-out bg-neutral-600"
           >
             <div class="pl-2">
               <img src="@/assets/icons/Inferno.webp" alt="icon" class="w-6 h-6 inline-block mr-2" />
             </div>
             Inferno
           </router-link>
-
         </ul>
       </div>
 
