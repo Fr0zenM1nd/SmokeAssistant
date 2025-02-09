@@ -147,7 +147,7 @@
 
         <div class="relative max-w-[90%]">
           <img 
-            :src="`/src/assets/Maps/Smokes/Mirage/${ActiveSmoke}/${AutoSmoke}.PNG`" 
+            :src="`/src/assets/Maps/Smokes/Mirage/${ActiveSmoke}.PNG`" 
             alt="Smoke View" 
             class="rounded-xl shadow-lg border-4 border-yellow-900" 
           />
@@ -170,11 +170,6 @@ export default {
       this.ActiveSmoke = smokeNumber;
     }
   },
-  mounted() {
-    setInterval(() => {
-      this.AutoSmoke = this.AutoSmoke === 1 ? 2 : 1;
-    }, 3000);
-  }
 };
 </script>
 

@@ -135,11 +135,6 @@ export default {
       this.ActiveSmoke = smokeNumber;
     }
   },
-  mounted() {
-    setInterval(() => {
-      this.AutoSmoke = this.AutoSmoke === 1 ? 2 : 1;
-    }, 3000);
-  }
 };
 </script>
 
