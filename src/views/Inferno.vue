@@ -48,7 +48,7 @@
           <img 
             src="@/assets/Maps/Inferno.webp" 
             alt="Map Image" 
-            :class="['rounded-lg shadow-lg']" 
+            :class="['rounded-lg shadow-lg border-2 border-blue-950']" 
           />
 
           <div class="absolute top-[20.5%] left-[59%] w-[5%] h-[3%]">
@@ -110,14 +110,11 @@
 
         </div>
 
-        
-
-
         <div class="relative max-w-[90%]">
           <img 
             :src="`/src/assets/Maps/Smokes/Inferno/${ActiveSmoke}/${AutoSmoke}.PNG`" 
             alt="Smoke View" 
-            class="rounded-r-xl shadow-lg" 
+            class="rounded-xl shadow-lg border-4 border-yellow-900" 
           />
         </div>
       </div>
