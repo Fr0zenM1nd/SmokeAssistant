@@ -43,8 +43,8 @@
         </ul>
       </div>
 
-      <div class="flex-col lg:flex-row flex justify-left items-center">
-        <div class="relative max-w-[45%]">
+      <div class="flex-col lg:flex-row flex gap-15 md:gap-0 justify-center md:justify-left items-center">
+        <div class="relative max-w-[90%] md:max-w-[45%]">
           <img 
             src="@/assets/Maps/Mirage.webp" 
             alt="Map Image" 
@@ -145,7 +145,7 @@
 
         </div>
 
-        <div class="relative max-w-[90%]">
+        <div class="relative max-w-[100%] md:max-w-[90%]">
           <img 
             :src="`/src/assets/Maps/Smokes/Mirage/${ActiveSmoke}.PNG`" 
             alt="Smoke View" 
